@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float x=12.75;
+    int n = static cast<int>(x);
+    cout<<"float:"<<x<<endl;
+    cout<<"integer:"<<n<<endl;
+    
+    return 0;
+}
