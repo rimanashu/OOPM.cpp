@@ -1,0 +1,12 @@
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n=25;
+    float x=(float)n;
+    cout<<"integer:"<<n<<endl;
+    cout<<"float:"<<x<<endl;
+    return 0;
+}
