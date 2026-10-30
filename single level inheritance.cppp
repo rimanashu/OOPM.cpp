@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+class teacher{
+    public:
+    void display(){
+        cout<<"i am a teacher"<<endl;
+    } 
+};
+class student:public teacher{
+    public:
+    void showstudent(){
+        cout<<"i am a student";
+    }
+};
+int main(){
+student a;
+a.display();
+a.showstudent();
+    return 0;
+}
+    
